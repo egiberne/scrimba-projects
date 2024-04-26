@@ -1,0 +1,130 @@
+/* Reset some default styles */
+
+* {
+    box-sizing: border-box;
+  }
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Black color for text */
+    background-color: #fff; /* White background */
+    margin: 20px; /* Add some margin for visual space */
+}
+
+header, section, footer {
+    margin-bottom: 30px; /* Add space between sections */
+}
+
+header h1 {
+    font-size: 2em;
+    color:#ddd;
+    text-align: center  ; /* Center the header text */  
+    margin-bottom: 20px; /* Add some space below the header text */
+}
+
+header {
+    background-color: #333; /* Black background for navigation */
+}
+/* Navigation styles */
+nav {
+    background-color: #333; /* Black background for navigation */
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    /*color: #ddd; /* White color for navigation links */
+    font-weight: bold;
+}
+
+
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add some padding for better readability */
+}
+
+/* About section styles */
+#about {
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px; /* Set the desired width for the profile picture */
+    height: 150px; /* Set the desired height for the profile picture */
+    border-radius: 50%; /* Make the profile picture rounded */
+    margin-bottom: 20px;
+}
+
+/* Skills section styles */
+.skill {
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #ddd; /* Light gray background for progress bar */
+    border-radius: 10px; /* Make the progress bar rounded */
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333; /* Black background for footer */
+    padding: 15px;
+    color: #fff; /* White color for text in the footer */
+}
+
+.social-links a {
+    font-size: 1.5em;
+    color: #000; /* White color for social media icons */
+    margin: 0 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Adjust header font size for smaller screens */
+    }
+}
